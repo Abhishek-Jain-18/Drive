@@ -1,0 +1,3 @@
+# files which do not go to github
+.env
+node_modules
