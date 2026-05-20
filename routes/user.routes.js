@@ -77,8 +77,7 @@ router.post('/login',
         
         res.cookie('token', token);
         
-        res.send('Logged in')
-
+        res.redirect('/home');
         
 
     })
